@@ -1,0 +1,83 @@
+ body{
+
+    margin: 0;
+    padding: 0%;
+    background-color:rgb(0, 0, 0) ;
+
+ }
+  h1
+ {
+  position: absolute;
+  left: 45%;
+  top: 5% ;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:orange ;
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    padding-bottom: 70px;
+    border-radius: 10px;
+    box-shadow: rgba(238, 233, 233, 0.25) 0px 14px 28px, rgba(224, 222, 222, 0.22) 0px 10px 10px; 
+}
+.timer-display{
+    width: 300px;
+    height: 300px;
+    background:rgb(20, 20, 20);
+    padding: 40px 0px;
+    position: relative;
+    left: 105px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(245, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50% ;
+    box-shadow: rgba(233, 201, 58, 0.25) 0px 30px 60px -12px inset, rgba(255, 110, 13, 0.904) 0px 18px 36px -18px inset;
+}
+.laps{
+    text-align: center;
+    color:green;
+    margin-top: 10px;
+    text-decoration:none;
+    padding-top: 20px;
+}
+.action{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+
+}
+
+.action button{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: aqua;
+    border-color: aqua;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color:green;
+    color: white;
+    border: 2px solid green;
+    box-sizing: 2px 3px 2px 3px;
+    padding: 7px 17px;
+    font-size: .9rem;
+}
